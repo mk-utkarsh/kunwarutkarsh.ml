@@ -13,9 +13,13 @@
   <h2 align="center">K. Utkarsh's Website Repository</h3>
 </div>
 
+
 <br />
 
+<p align="center">
 <img src="demo.png" alt="Demo" width="665" height="313.5">
+</p>
+
 <!-- Acknowledges libraries/frameworks used in development -->
 ### Built With
 The Following major libraries and frameworks helped bootstrap the project:
