@@ -15,6 +15,7 @@
 
 <br />
 
+<img src="demo.png" alt="Demo" width="665" height="313.5">
 <!-- Acknowledges libraries/frameworks used in development -->
 ### Built With
 The Following major libraries and frameworks helped bootstrap the project:
