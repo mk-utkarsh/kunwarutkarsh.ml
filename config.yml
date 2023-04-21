@@ -100,7 +100,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/mk-utkarsh/kunwarutkarsh.tk/content"
+    URL: "https://github.com/mk-utkarsh/kunwarutkarsh.ml/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -130,7 +130,7 @@ menu:
       weight: 30
     - identifier: webrepo
       name: Source Code
-      url: https://github.com/mk-utkarsh/kunwarutkarsh.tk.git
+      url: https://github.com/mk-utkarsh/kunwarutkarsh.ml.git
       weight: 40
     
 
