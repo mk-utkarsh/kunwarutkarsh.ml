@@ -1,6 +1,6 @@
-baseURL: "https://examplesite.com/"
-title: ExampleSite
-paginate: 5
+baseURL: "https://kunwarutkarsh.tk/"
+title: K. Utkarsh
+paginate: 50
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -16,18 +16,18 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  title: K. Utkarsh
+  description: "This is K.Utkarsh's official website."
+  keywords: [Blog, Portfolio, Hugo]
+  author: K. Utkarsh
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
-  ShowReadingTime: true
-  ShowShareButtons: true
+  ShowReadingTime: false
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
@@ -52,7 +52,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: "Hello, there!"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -66,10 +66,8 @@ params:
     imageHeight: 150
     imageTitle: K. Utkarsh's Logo
     buttons:
-      - name: Posts
-        url: posts
-      - name: Archives
-        url: archives
+      - name: About Me
+        url: about
 
   # home-info mode
   homeInfoParams:
@@ -79,8 +77,12 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/mk-utkarsh"
+    - name: dev
+      url: "https://dev.to/mk-utkarsh"
     - name: email
       url: "mailto:iusearchbtw2@gmail.com"
+    - name: pgp
+      url: "https://keys.openpgp.org/search?q=iusearchbtw2%40gmail.com"
     - name: spotify
       url: "https://open.spotify.com/user/31vjectt5tgaa7wpwjjhxkekya3u?si=h2yCkZ6PQ6OYKzjeAFbSg&nd=1"
     
@@ -98,7 +100,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/mk-utkarsh/kuktarsh/content"
+    URL: "https://github.com/mk-utkarsh/kunwarutkarsh.tk/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -114,18 +116,24 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: post
+      name: Posts
+      url: /posts/
       weight: 10
-    - identifier: tags
-      name: Tags
-      url: /tags/
+    - identifier: archive
+      name: Archives
+      url: /archives/
       weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
     - identifier: webrepo
       name: Source Code
-      url: https://github.com/mk-utkarsh/kutkarsh/
-      weight: 30
+      url: https://github.com/mk-utkarsh/kunwarutkarsh.tk.git
+      weight: 40
+    
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
@@ -136,3 +144,9 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
