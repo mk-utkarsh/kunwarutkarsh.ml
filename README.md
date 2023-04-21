@@ -7,10 +7,9 @@
 <br />
 <div align="center">
   <a href="https://github.com/mk-utkarsh">
-    <img src="static/mk-utkarsh.png" alt="Logo" width="200" height="200">
+    <h2 align="center">K. Utkarsh's Website Repository</h2>
   </a>
 
-  <h2 align="center">K. Utkarsh's Website Repository</h3>
 </div>
 
 
