@@ -16,7 +16,7 @@
 <br />
 
 <p align="center">
-![demo.png](https://imgur.com/a/8dPJ6Zg)
+<img src="https://i.imgur.com/cYsYPrQ.png" alt="Demo" width="665" height="313.5"
 </p>
 
 <!-- Acknowledges libraries/frameworks used in development -->
